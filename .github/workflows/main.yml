@@ -1,0 +1,11 @@
+name: Test workflow
+on:
+  pull_request:
+    branches:
+    - main
+jobs:
+  my_job:
+    name: deploy to staging
+    runs-on: ubuntu-lastest
+    steps:
+      - run: main
