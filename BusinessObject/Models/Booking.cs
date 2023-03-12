@@ -16,7 +16,7 @@ namespace BusinessObject.Models
         public DateTime BookingDate { get; set; }
         public int NumAdults { get; set; }
         public int NumChildren { get; set; }
-        public int NumInfants { get; set; }
+        public int? NumInfants { get; set; }
         public decimal TotalPrice { get; set; }
 
         public virtual Account Customer { get; set; } = null!;
