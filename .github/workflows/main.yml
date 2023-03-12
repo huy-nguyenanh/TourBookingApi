@@ -8,4 +8,4 @@ jobs:
     name: deploy to staging
     runs-on: ubuntu-lastest
     steps:
-      - run: main
+      - run: echo main
